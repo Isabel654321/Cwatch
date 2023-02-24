@@ -4,18 +4,13 @@ a{text-decoration: none; color: #ffffff;}
 
 
 .header_menu_item {display: inline-block; padding:20px; text-decoration: none; }
-.header_menu_item a:hover{color: #fff;display: block;}
-.header_menu_item a:hover{background: #51855e; padding: 10px;}
+.header_menu_item li:hover{color: #fff;display: block; background-color: #51855e;}
+.header_menu_item li:hover{background: #51855e;}
 .header_icon_bar{display: block; float: left; padding: 20px; display: none;}
 .header_icon_bar span{display: block; height:3px; width:30px; background: #fff; margin-bottom: 5px;}
 
 .menu-container{border: 2px; margin:0px; overflow: hidden;background-color: #264a2f; }
 
-<<<<<<< HEAD
-img {width 100px; height: 100px; align-content: center;}
-.cover,
-.cover2{color: #fff; text-align: center; font-family: "Papyrus"; margin: 0%; padding: auto;}
-=======
 
 .cover_copy{background-color: #51855e; height:36px;}
 .cover_copy h1{color: #fff; text-align: center; font-family: "Papyrus";  margin:0px;}
@@ -34,7 +29,6 @@ img {width 100px; height: 100px; align-content: center;}
     .cover_copy h1{padding: 9px}
 
 }
->>>>>>> 5ee8d3f08abb288377143b45c0355b695a48300f
 .clearfix:after {
     visibility: hidden;
     display: block;
