@@ -13,7 +13,7 @@ li,a{text-decoration: none; color: #fff;}
 .menu-container{border: 2px; margin:0px; overflow: hidden; }
 .menu-container{float:right; margin: 0px; padding: 0px;}
 
-.cover_copy{background-color: #51855e; height:90%}
+.cover_copy{background-color: #51855e; height:90% ;}
 .cover_copy img{ display: block; margin: auto; height: 40%; padding-top: 100px;}
 .cover_copy h1,h4{color: #fff; text-align: center; font-family: "Papyrus";  margin:0px;}
 
