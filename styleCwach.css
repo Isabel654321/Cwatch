@@ -1,20 +1,17 @@
-html,body{ height:100%; width:100%;}
+html,body{ height:100%; width:100%; }
 header{background-color: black;}
 a{text-decoration: none; color: #fff;}
 li{color:#edb342;}
 
-.menu-container{width:100%; height: 0px; overflow: hidden; }
+.menu-container{width:100%; height: 0px; overflow: hidden;}
 .header_menu_item{display: block; padding:20px; text-align: center;}
 .header_menu_item a:hover{color: #edb342;display: block;}
 .header_menu_item a:hover{color:#edb342;}
 .header_icon_bar{display: block; float: right; padding: 20px; }
 .header_icon_bar span{display: block; height:3px; width:30px; background: #edb342; margin-bottom: 5px;}
-.is-open{height:767px ; overflow: auto;}
+.is-open{height: 767px ; overflow:auto; position:absolute;background-color: black;z-index:2;}
 
-.menu-container{border: 2px; margin:0px; overflow: hidden; }
-.menu-container{float:right; margin: 0px; padding: 0px;}
-
-.cover_copy{background-color: #edb342; height:90% ;}
+.cover_copy{background-color: #edb342; height:90% ;position:relative;z-index:1;}
 .cover_copy img{ display: block; margin: auto; height: 40%; padding-top: 100px;}
 .cover_copy h1,h4{color: #000; text-align: center; font-family: "Papyrus";  margin:0px;}
 
