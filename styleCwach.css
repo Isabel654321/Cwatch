@@ -9,7 +9,7 @@ li{color:#edb342;}
 .header_menu_item a:hover{color:#edb342;}
 .header_icon_bar{display: block; float: right; padding: 20px; }
 .header_icon_bar span{display: block; height:3px; width:30px; background: #edb342; margin-bottom: 5px;}
-.is-open{height: 767px ; overflow:auto; position:absolute;background-color: black;z-index:2;}
+.is-open{height: auto; overflow:auto; position:absolute;background-color: black;z-index:2;}
 
 
 .cover_copy{background-color: #edb342; height:90vh ;position:relative;z-index:1; padding: 20px;}
