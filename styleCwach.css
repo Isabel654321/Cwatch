@@ -16,8 +16,8 @@ li{color:#edb342;}
 .cover_copy img{ display: block; margin: auto; height: 40%; padding-top: 100px;}
 .cover_copy h1,h4{color: #000; text-align: center; font-family: "Papyrus";  margin:0px;}
 
-.presentazione{margin:0; padding:0; height:100vh; display:flex; justify-content:center; align-items:center; background: rgb(0, 0, 0);}
-.slider{width:800px; height: 500px; overflow: hidden ;margin: auto; margin-top: 50px;}
+.presentazione{margin:0 ; padding:0; height:100vh; display:flex; justify-content:center; align-items:center; background: rgb(0, 0, 0);}
+.slider{width:800px; height: 500px; overflow: hidden ;margin: auto; float: left;}
 .slides{width:500%; height:500px; display: flex;}
 .slide_first{ width:20%; height:500px; display: flex;}
 .slides input{display:none;}
