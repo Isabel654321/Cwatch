@@ -16,6 +16,27 @@ li{color:#edb342;}
 .cover_copy img{ display: block; margin: auto; height: 40%; padding-top: 100px;}
 .cover_copy h1,h4{color: #000; text-align: center; font-family: "Papyrus";  margin:0px;}
 
+.presentazione{margin:0; padding:0; height:100vh; display:flex; justify-content:center; align-items:center; background: rgb(0, 0, 0);}
+.slider{width:800px; height: 500px; overflow: hidden ;margin: auto; margin-top: 50px;}
+.slides{width:500%; height:500px; display: flex;}
+.slide_first{ width:20%; height:500px; display: flex;}
+.slides input{display:none;}
+.slide { width:20%;}
+.slide img{ width:800px; height: 500px;}
+.navigation_manual{
+    position:absolute;width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;}
+.manual-btn{border: 2px solid rgb(255, 255, 255);padding: 5px; border-radius: 10px;cursor:pointer;transition: 2s;}
+.manual-btn:not(:last-child){margin-right: 40px;}
+.manual-btn:hover{background: black;}
+
+#radio1:checked ~ .slide_first{margin-left: 0;}
+#radio2:checked ~ .slide_first{margin-left: -20%;}
+#radio3:checked ~ .slide_first{margin-left: -40%;}
+#radio4:checked ~ .slide_first{margin-left: -60%;}
+
 .footer-container{text-align:center; border: 5px; margin:0px; padding:20px;background-color: black;}
 .footer-container li{color:#edb342; display: inline-block;}
 
