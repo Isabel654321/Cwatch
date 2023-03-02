@@ -12,7 +12,7 @@ li{color:#edb342;}
 .is-open{height: 767px ; overflow:auto; position:absolute;background-color: black;z-index:2;}
 
 
-.cover_copy{background-color: #edb342; height:90% ;position:relative;z-index:1;}
+.cover_copy{background-color: #edb342; height:90vh ;position:relative;z-index:1; padding: 20px;}
 .cover_copy img{ display: block; margin: auto; height: 40%; padding-top: 100px;}
 .cover_copy h1,h4{color: #000; text-align: center; font-family: "Papyrus";  margin:0px;}
 
