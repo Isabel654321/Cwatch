@@ -1,6 +1,7 @@
 header{background-color: black;}
 a{text-decoration: none; color:#000;}
 li{color:#edb342;}
+body{font-family: 'Inter', sans-serif; }
 
 
 .menu-container a{color:white;}
@@ -29,6 +30,9 @@ li{color:#edb342;}
 .manual-btn:not(:last-child){margin-right: 20px;}
 .manual-btn:hover{background: black;}
 
+.card{display: flex; margin-left: 150px;;}
+.card img{ width: 450px;height: 500px;object-fit: cover;float: right;margin-top: 70px;margin-bottom: 70px;}
+
 #radio1:checked ~ .slide_first{margin-left: 0;}
 #radio2:checked ~ .slide_first{margin-left: -20%;}
 #radio3:checked ~ .slide_first{margin-left: -40%;}
@@ -36,10 +40,10 @@ li{color:#edb342;}
 .container_slide{margin-left: 50px;}
 .container{background-color:#edb342;float:right;margin-top: 70px;width:450px; height: 500px;}
 .container h2{font-family: 'Inter', sans-serif; font-family: 'Poppins', sans-serif;;text-align: center;margin-top: 80px;color: white;}
-.container p{margin-left:50px;margin-right:50px; margin-top:80px; text-align: center;color: white;font-family: 'Inter', sans-serif; font-family: 'Poppins', sans-serif;}
+.container p{margin-left:50px;margin-right:50px; margin-top:80px; text-align: center;color: white;}
 .container-s{margin-left: 350px;}
 
-.card img{float:right;}
+
 
 
 .footer-container{text-align:center; border: 5px; margin:0px; padding:20px;background-color: black;}
