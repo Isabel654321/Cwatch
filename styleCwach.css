@@ -20,13 +20,13 @@ body{font-family: 'Inter', sans-serif; }
 .presentazione{ padding:0; height:100vh; display:flex; background-color: #000000;}
 .slider{width:450px; height: 500px; overflow: hidden; float: left; margin-top: 70px;}
 .slides{width:500%; height:500px; display: flex;}
-.slide_first{ width:20%; height:500px; display: flex;}
+.slidefirst{ width:20%; height:500px; display: flex;}
 .slides input{display:none;}
-.slide { width:20%;}
+.slide { width:20%;transition: 0.6s;}
 #sl1{float: right;}
 .slide img{ width:450px; height: 500px;object-fit: cover;}
 
-.navigation_manual{width: 800px;margin-top: -40px;display: flex;}
+.navigation_manual{width: 800px;margin-top: -40px;display: flex;margin-left: 300px;}
 .manual-btn{border: 2px solid #edb342;padding: 5px; border-radius: 10px;cursor:pointer;transition: 2s;}
 .manual-btn:not(:last-child){margin-right: 20px;}
 .manual-btn:hover{background: black;}
@@ -34,10 +34,10 @@ body{font-family: 'Inter', sans-serif; }
 .card{display: flex; margin-left: 150px;;}
 .card img{ width: 450px;height: 500px;object-fit: cover;float: right;margin-top: 70px;margin-bottom: 70px;}
 
-#radio1:checked ~ .slide_first{margin-left: 0;}
-#radio2:checked ~ .slide_first{margin-left: -20%;}
-#radio3:checked ~ .slide_first{margin-left: -40%;}
-#radio4:checked ~ .slide_first{margin-left: -60%;}
+#radio1:checked ~ .first{margin-left: 0;}
+#radio2:checked ~ .first{margin-left: -20%;}
+#radio3:checked ~ .first{margin-left: -40%;}
+#radio4:checked ~ .first{margin-left: -60%;}
 .container_slide{margin-left: 50px;}
 .container{background-color:#edb342;float:right;margin-top: 70px;width:450px; height: 500px;}
 .container h2{font-family: 'Inter', sans-serif; font-family: 'Poppins', sans-serif;;text-align: center;margin-top: 80px;color: white;}
