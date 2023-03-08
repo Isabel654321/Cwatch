@@ -38,6 +38,11 @@ body{font-family: 'Inter', sans-serif; }
 #radio2:checked ~ .first{margin-left: -20%;}
 #radio3:checked ~ .first{margin-left: -40%;}
 #radio4:checked ~ .first{margin-left: -60%;}
+
+#radio5:checked ~ .first{margin-left: 0;}
+#radio6:checked ~ .first{margin-left: -20%;}
+#radio7:checked ~ .first{margin-left: -40%;}
+#radio8:checked ~ .first{margin-left: -60%;}
 .container_slide{margin-left: 50px;}
 .container{background-color:#edb342;float:right;margin-top: 70px;width:450px; height: 500px;}
 .container h2{font-family: 'Inter', sans-serif; font-family: 'Poppins', sans-serif;;text-align: center;margin-top: 80px;color: white;}
