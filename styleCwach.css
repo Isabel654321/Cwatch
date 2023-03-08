@@ -12,7 +12,6 @@ body{font-family: 'Inter', sans-serif; }
 .header_icon_bar span{display: block; height:3px; width:30px; background: #edb342; margin-bottom: 5px;}
 .is-open{height: 767px; overflow:auto; position:absolute;background-color: black;z-index:2;}
 
-
 .cover_copy{background-color: #edb342; height:90vh ;position:relative;z-index:1; padding: 20px;}
 .cover_copy img{ display: block; margin: auto; height: 40%; padding-top: 100px;}
 .cover_copy h1,h4{color: #000; text-align: center; font-family: "Papyrus";  margin:0px;}
@@ -24,8 +23,10 @@ body{font-family: 'Inter', sans-serif; }
 .slide_first{ width:20%; height:500px; display: flex;}
 .slides input{display:none;}
 .slide { width:20%;}
+#sl1{float: right;}
 .slide img{ width:450px; height: 500px;object-fit: cover;}
-.navigation_manual{position:absolute;width: 800px;margin-top: -40px;display: flex;justify-content: center;}
+
+.navigation_manual{width: 800px;margin-top: -40px;display: flex;}
 .manual-btn{border: 2px solid #edb342;padding: 5px; border-radius: 10px;cursor:pointer;transition: 2s;}
 .manual-btn:not(:last-child){margin-right: 20px;}
 .manual-btn:hover{background: black;}
@@ -42,9 +43,6 @@ body{font-family: 'Inter', sans-serif; }
 .container h2{font-family: 'Inter', sans-serif; font-family: 'Poppins', sans-serif;;text-align: center;margin-top: 80px;color: white;}
 .container p{margin-left:50px;margin-right:50px; margin-top:80px; text-align: center;color: white;}
 .container-s{margin-left: 350px;}
-
-
-
 
 .footer-container{text-align:center; border: 5px; margin:0px; padding:20px;background-color: black;}
 .footer-container li{color:#edb342; display: inline-block;}
