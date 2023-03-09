@@ -1,7 +1,8 @@
 header{background-color: black;}
 a{text-decoration: none; color:#000;}
 li{color:#edb342;}
-body{font-family: 'Inter', sans-serif; }
+body{font-family: 'Inter', sans-serif;}
+ul{margin: 0%; padding: 0%;}
 
 
 .menu-container a{color:white;}
@@ -48,6 +49,7 @@ body{font-family: 'Inter', sans-serif; }
 .container h2{font-family: 'Inter', sans-serif; font-family: 'Poppins', sans-serif;;text-align: center;margin-top: 80px;color: white;}
 .container p{margin-left:50px;margin-right:50px; margin-top:80px; text-align: center;color: white;}
 .container-s{margin-left: 350px;}
+.container li{font-family: 'Inter', sans-serif;display: block; font-family: 'Poppins', sans-serif;text-align: center; padding: 20px;color: white;}
 
 .footer-container{text-align:center; border: 5px; margin:0px; padding:20px;background-color: black;}
 .footer-container li{color:#edb342; display: inline-block;}
@@ -56,6 +58,7 @@ body{font-family: 'Inter', sans-serif; }
   .cover_copy img{padding-top: 200px; height: 20%;}
   .cover_copy{height: 767px;}
   .cover_copy h1{padding: 9px}
+  
 }
 .clearfix:after {
     visibility: hidden;
