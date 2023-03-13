@@ -1,8 +1,9 @@
 header{background-color: black;}
 a{text-decoration: none; color:#000;}
 li{color:#edb342;}
-body{font-family: 'Inter', sans-serif;}
+body{font-family: 'Inter', sans-serif;background-color:#000;}
 ul{margin: 0%; padding: 0%;}
+
 
 
 .menu-container a{color:white;}
@@ -17,7 +18,7 @@ ul{margin: 0%; padding: 0%;}
 .cover_copy img{ display: block; margin: auto; height: 40%; padding-top: 100px;}
 .cover_copy h1,h4{color: #000; text-align: center; font-family: "Papyrus";  margin:0px;}
 
-#ps1{background-color: #fff;}
+
 .presentazione{ padding:0; height:100vh; display:flex; background-color: #000000;}
 .slider{width:50%;height: 100%; overflow: hidden; float: left; }
 .slides{width:500%; height:100%; display: flex;}
@@ -56,6 +57,8 @@ ul{margin: 0%; padding: 0%;}
   .cover_copy img{padding-top: 200px; height: 20%;}
   .cover_copy{height: 767px;}
   .cover_copy h1{padding: 9px}
+  .container_slide{width: 100%;margin-left: 0px;}
+  #cs1{margin-left:0px;}
   
 }
 .clearfix:after {
