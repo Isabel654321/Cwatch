@@ -34,6 +34,7 @@ ul{margin: 0%; padding: 0%;}
 .manual-btn:hover{background: black;}
 
 
+
 #radio1:checked ~ .first{margin-left: 0;}
 #radio2:checked ~ .first{margin-left: -20%;}
 #radio3:checked ~ .first{margin-left: -40%;}
@@ -53,6 +54,14 @@ ul{margin: 0%; padding: 0%;}
 .footer-container{text-align:center; border: 5pxs; margin:0px; padding:20px;background-color: black;}
 .footer-container li{color:#edb342; display: inline-block;}
 
+.img-res{height: auto; width: 100%;}
+.wa-link{
+  display: inline-block; 
+  width: 60px; height:60px;
+  position: fixed;
+  bottom:20px;
+  right:20px;
+}
 @media(max-width: 767px){
   .cover_copy img{padding-top: 200px; height: 20%;}
   .cover_copy{height: 767px;}
