@@ -1,15 +1,15 @@
 header{background-color: black;}
 a{text-decoration: none; color:#000;}
-li{color:#edb342;}
+li{color:#edb342; font-family: papyrus;}
 body{background-color:#000;}
 ul{margin: 0%; padding: 0%;}
-
+p, h5{font-family: Garamond; font-size: 15px;}
 
 
 .menu-container a{color:white;}
 .menu-container{width:100%; height: 0px; overflow: hidden;}
 .header_menu_item{display: block; padding:20px; text-align: center;}
-.header_menu_item a:hover{color: #edb342;}
+
 .header_icon_bar{display: block; float: right; padding: 20px; }
 .header_icon_bar span{display: block; height:3px; width:30px; background: #edb342; margin-bottom: 5px;}
 .is-open{height: 767px; overflow:auto; position:absolute;background-color: black;z-index:2;}
@@ -18,7 +18,8 @@ ul{margin: 0%; padding: 0%;}
 .cover_copy img{ display: block; margin: auto; height: 40%; padding-top: 100px;}
 .cover_copy h1,h4{color: #000; text-align: center; font-family: "Papyrus";  margin:0px;}
 
-h5{font-family: 'Times New Roman', Times, serif; color: white; padding-left: 10px; padding-right: 10px; text-align: center;}
+h5{font-family: Garamond; color: white; padding-left: 10px; padding-right: 10px; text-align: center;}
+
 
 
 .presentazione{padding:0; height:100vh; display:flex; background-color: #000000;}
@@ -35,8 +36,6 @@ h5{font-family: 'Times New Roman', Times, serif; color: white; padding-left: 10p
 .manual-btn:not(:last-child){margin-right: 20px;}
 .manual-btn:hover{background: black;}
 
-
-
 #radio1:checked ~ .first{margin-left: 0;}
 #radio2:checked ~ .first{margin-left: -20%;}
 #radio3:checked ~ .first{margin-left: -40%;}
@@ -46,12 +45,29 @@ h5{font-family: 'Times New Roman', Times, serif; color: white; padding-left: 10p
 #radio6:checked ~ .first{margin-left: -20%;}
 #radio7:checked ~ .first{margin-left: -40%;}
 #radio8:checked ~ .first{margin-left: -60%;}
+
+#radio9:checked ~ .first{margin-left: 0;}
+#radio10:checked ~ .first{margin-left: -20%;}
+#radio11:checked ~ .first{margin-left: -40%;}
+#radio12:checked ~ .first{margin-left: -60%;}
+
+#radio13:checked ~ .first{margin-left: 0;}
+#radio14:checked ~ .first{margin-left: -20%;}
+#radio15:checked ~ .first{margin-left: -40%;}
+#radio16:checked ~ .first{margin-left: -60%;}
+
+#radio17:checked ~ .first{margin-left: 0;}
+#radio18:checked ~ .first{margin-left: -20%;}
+#radio19:checked ~ .first{margin-left: -40%;}
+#radio20:checked ~ .first{margin-left: -60%;}
+
 #cs1{margin-left:20%;}
 .container_slide{margin-left: 10%;margin-top: 5%; margin-bottom: 5%; width: 70%;}
-.container h2{font-family: papyrus;text-align: center;margin-top: 25%;color: white;}
+.container h2{font-family: papyrus;text-align: center;margin-top: 25%;color: white; font-size: 30px;margin-left: 10%; margin-right: 10%;}
 .container{background-color:#edb342;float:right;width:50%;height: 100%;}
 .container p{margin-left:10%;margin-right:10%; margin-top: 20%; text-align: center;color: white;}
-.container li{font-family: Verdana, Geneva, Tahoma, sans-serif;display: block; font-family: 'Poppins', sans-serif;text-align: center; padding: 20px;color: white;}
+.container li{font-family: Garamond;display: block; text-align: center; padding: 20px;color: white; font-size: 25px;}
+.container h5{text-align: center; margin-left: 10%; margin-right: 10%;}
 
 .footer-container{text-align:center; border: 5pxs; margin:0px; padding:20px;background-color: black;}
 .footer-container li{color:#edb342; display: inline-block;}
@@ -65,6 +81,15 @@ h5{font-family: 'Times New Roman', Times, serif; color: white; padding-left: 10p
   right:20px;
 }
 @media(max-width: 767px){
+
+  .menu-container a{color:white;}
+  .menu-container{width:100%; height: 0px; overflow: hidden;}
+  .header_menu_item{display: block; padding:20px; text-align: center;}
+  .header_menu_item a:hover{color: #edb342;}
+  .header_icon_bar{display: block; float: right; padding: 20px; }
+  .header_icon_bar span{display: block; height:3px; width:30px; background: #edb342; margin-bottom: 5px;}
+  .is-open{height: 767px; overflow:auto; position:absolute;background-color: black;z-index:2;}
+
   .cover_copy img{padding-top: 200px; height: 20%;}
   .cover_copy{height: 767px;}
   .cover_copy h1{padding: 9px}
@@ -72,6 +97,12 @@ h5{font-family: 'Times New Roman', Times, serif; color: white; padding-left: 10p
   #cs1{margin-left:0%;}
   .container p{margin-left:1%;margin-right:1%; margin-top:25%;text-align: center; font-size: 20px;}
   .container h2{margin-top: 40%; font-size: 35px;}
+  .container li{font-family: Garamond;display: block; text-align: center; padding: 15px;color: white; font-size: 20px;}
+  .container ul{margin-top: 20%;}
+  .container h2{font-family: papyrus;text-align: center;margin-top: 25%;color: white; margin-left: 5%; margin-right: 5%;}
+  .container h5{text-align: center; margin-left: 5%; margin-right: 5%;}
+
+  
 }
 .clearfix:after {
     visibility: hidden;
