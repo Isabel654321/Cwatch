@@ -1,7 +1,7 @@
 header{background-color: black;}
 a{text-decoration: none; color:#000;}
 li{color:#edb342;}
-body{font-family: 'Inter', sans-serif;background-color:#000;}
+body{font-family: papyrus;background-color:#000;}
 ul{margin: 0%; padding: 0%;}
 
 
@@ -49,8 +49,6 @@ ul{margin: 0%; padding: 0%;}
 .container{background-color:#edb342;float:right;width:50%;height: 100%;}
 .container h2{font-family: 'Inter', sans-serif; font-family: 'Poppins', sans-serif;text-align: center;margin-top: 25%;color: white;}
 .container p{margin-left:10%;margin-right:10%; margin-top: 20%; text-align: center;color: white;}
-.container li{font-family: 'Inter', sans-serif;display: block; font-family: 'Poppins', sans-serif;text-align: center; padding: 20px;color: white;}
-
 .footer-container{text-align:center; border: 5pxs; margin:0px; padding:20px;background-color: black;}
 .footer-container li{color:#edb342; display: inline-block;}
 
