@@ -3,7 +3,8 @@ a{text-decoration: none; color:#000;}
 li{color:#edb342;}
 body{background-color:#000;}
 ul{margin: 0%; padding: 0%;}
-
+p{font-family: 'Ubuntu', sans-serif;}
+h2,h1,h4 {font-family:"Papyrus";}
 
 
 .menu-container a{color:white;}
@@ -16,9 +17,9 @@ ul{margin: 0%; padding: 0%;}
 
 .cover_copy{background-color: #edb342; height:90vh ;position:relative;z-index:1; padding: 20px;}
 .cover_copy img{ display: block; margin: auto; height: 40%; padding-top: 100px;}
-.cover_copy h1,h4{color: #000; text-align: center; font-family: "Papyrus";  margin:0px;}
+.cover_copy h1,h4{color: #000; text-align: center; margin:0px;}
 
-h5{font-family: 'Times New Roman', Times, serif; color: white; padding-left: 10px; padding-right: 10px; text-align: center;}
+/* h5{ padding-left: 10px; padding-right: 10px; text-align: center;}*/
 
 
 .presentazione{padding:0; height:100vh; display:flex; background-color: #000000;}
@@ -48,10 +49,10 @@ h5{font-family: 'Times New Roman', Times, serif; color: white; padding-left: 10p
 #radio8:checked ~ .first{margin-left: -60%;}
 #cs1{margin-left:20%;}
 .container_slide{margin-left: 10%;margin-top: 5%; margin-bottom: 5%; width: 70%;}
-.container h2{font-family: papyrus;text-align: center;margin-top: 25%;color: white;}
+.container h2{text-align: center;margin-top: 25%;color: white;}
 .container{background-color:#edb342;float:right;width:50%;height: 100%;}
-.container p{margin-left:10%;margin-right:10%; margin-top: 20%; text-align: center;color: white;}
-.container li{font-family: Verdana, Geneva, Tahoma, sans-serif;display: block; font-family: 'Poppins', sans-serif;text-align: center; padding: 20px;color: white;}
+.container p{margin-left:10%;margin-right:10%; text-align: center;color: white;}
+.container li{display: block; text-align: center; padding: 20px;color: white;}
 
 .footer-container{text-align:center; border: 5pxs; margin:0px; padding:20px;background-color: black;}
 .footer-container li{color:#edb342; display: inline-block;}
