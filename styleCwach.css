@@ -8,9 +8,10 @@ h2,h1,h4 {font-family:"Papyrus";}
 
 
 .menu-container{ text-align:center; border: 0px; margin:0px; }
-header{ padding: 10px x; margin: 10px}
+header{ margin: 5px; height: 10vh;}
 
-.header_logo{float: left; padding: 20px; display: block;}
+.header_logo{float: left; width: 20%; height: 100%; display: block; }
+.header_logo img{height: 100%; width: 100%; object-fit: cover;}
 .menu-container{float:right; margin: 0px; padding: 0px;}
 .header_menu_item{display: inline-block; padding: 10px; text-decoration: none;}
 .header_menu_item a:hover{color: black;display: block;background:rgb(252, 252, 252) }
