@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <link rel="stylesheet" href="../styleCwach.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,7 +35,7 @@
       
         <div class="presentazione">
             <div class="container_slide">
-                <div class="slider">
+                <div class="slider reveal">
                     <div class="slides">
                         <input type="radio" name="radio-btn" id="radio1" >
                         <input type="radio" name="radio-btn" id="radio2" >
@@ -67,8 +68,8 @@
                     </div>
                 </div>
                 <div class="container">
-                    <h2>Enoteca Cwtch</h2>
-                   <p>
+                    <h2 class="reveal">Enoteca Cwtch</h2>
+                   <p class="reveal">
                         La Cwtch enoteca offre una vasta selezione di vini pregiati provenienti da tutto il mondo, selezionati con cura per la loro qualità e provenienza. Il personale esperto è disponibile per aiutare i clienti a trovare il vino perfetto per ogni occasione.
                    </p>
                 </div>
@@ -77,7 +78,7 @@
 
         <div class="presentazione" id="ps1" >
             <div class="container_slide" id="cs1">
-                <div class="slider" id="sl1">
+                <div class="slider reveal" id="sl1">
                     <div class="slides">
                         <input type="radio" name="radio-btn" id="radio5" >
                         <input type="radio" name="radio-btn" id="radio6" >
@@ -111,8 +112,8 @@
               
                 </div>
                 <div class="container">
-                    <h2>Vini bianchi</h2>
-                    <ul>
+                    <h2 class="reveal">Vini bianchi</h2>
+                    <ul class="reveal">
                         <li>Vermentino di Gallura-Vigna'ngena-Capichera-Arzachena(Ot) 2010</li>
                         <li>Pico-Garganega-Angiolino Maule-gambellara(Vi) 2010</li>
                         <li>Agnese-Fior d'Arancio Secco-Azienda Agricola Alla costiera-Vò 2012(Pd)</li>
@@ -124,7 +125,7 @@
 
         <div class="presentazione">
             <div class="container_slide">
-                <div class="slider">
+                <div class="slider reveal">
                     <div class="slides">
                         <input type="radio" name="radio-btn" id="radio9" >
                         <input type="radio" name="radio-btn" id="radio10" >
@@ -157,8 +158,8 @@
                     </div>
                 </div>
                 <div class="container">
-                    <h2>Vini rossi</h2>
-                    <ul>
+                    <h2 class="reveal">Vini rossi</h2>
+                    <ul class="reveal">
                         <li>Barbera-Bunéis-Castello del Poggio(At) 2000</li>
                         <li>Barbera-Solo Vino Rosso- Ferraro Maurizio-Montemagno(At) 2000</li>
                         <li>Nebbiolo D'Alba-Bruno Giacosa-Nieve(Cn) 2008</li>
@@ -170,7 +171,7 @@
 
         <div class="presentazione" id="ps1" >
             <div class="container_slide" id="cs1">
-                <div class="slider" id="sl1">
+                <div class="slider reveal" id="sl1">
                     <div class="slides">
                         <input type="radio" name="radio-btn" id="radio13" >
                         <input type="radio" name="radio-btn" id="radio14" >
@@ -204,8 +205,8 @@
               
                 </div>
                 <div class="container">
-                    <h2>Cocktail</h2>
-                    <p>
+                    <h2 class="reveal">Cocktail</h2>
+                    <p class="reveal">
                        Cwtch offre una vasta selezione di drink alcolici ed analcolici preparati dai barman professionisti, con un'attenzione alla qualità degli ingredienti. I barman sono in grado di creare cocktail personalizzati in base ai vostri gusti e ci sono anche opzioni per chi non beve alcol. Il personale esperto è a disposizione per dare consigli sulla scelta dei drink.
                     </p>
                 </div>
@@ -214,20 +215,6 @@
 
 
     </main>
-
-    
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script>
-        $(document).ready(function(){
-           
-            $(".header_icon_bar").click(function(e){
-               
-                $(".menu-container").toggleClass('is-open');
-                e.preventDefault();
-            });
-        });
-    </script>
 </body>
     <footer class="footer-container">
         <ul>
@@ -238,4 +225,17 @@
             <li>Contattaci: +33966677788</li>
         </ul>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+           
+            $(".header_icon_bar").click(function(e){
+               
+                $(".menu-container").toggleClass('is-open');
+                e.preventDefault();
+            });
+        });
+        ScrollReveal().reveal('.reveal', { distance: '50px', duration: 1500, easing: 'cubic-bezier(0.5, 0, 0, 1)' ,interval: 600 });
+        ScrollReveal().reveal('.zoom', {  duration: 1500, easing: 'cubic-bezier(0.5, 0, 0, 1)' ,interval: 200, scale: 0.65});
+    </script>
 </html>

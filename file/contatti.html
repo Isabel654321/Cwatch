@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contatti</title>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <link rel="stylesheet" href="../styleCwach.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,42 +33,31 @@
 <div class="presentazione">
 <div class="container_slide">
     <div class="section">
-        <div class="section_input">
-            <h2>Contattaci</h2>
+        <div class="section_input reveal">
+            <h2 class="reveal">Contattaci</h2>
             <input type="text" placeholder="Nome" maxlength="20">
             <input type="text" placeholder="Email" maxlength="20">
             <input type="text" placeholder="Messaggio" maxlength="300">
         <div class="button">
-            <p>Invia</p>
+            <p class="reveal">Invia</p>
         </div>
         </div>
     </div>
     <div class="container">
-        <p>Via paradiso, 28<br>
+        <p class="reveal">Via paradiso, 28<br>
             20158 Milano <br>
             tel. 02 3060451 <br>
             <a href="https://www.google.com/intl/it/gmail/about/">Cwatch@gmail.com</a>
         </p>
-        <img src="ristorazione.jpg" alt="">
+        <img src="ristorazione.jpg" alt="" class="zoom">
     </div>
 </div> 
 </div> 
 
-<div class="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11192.918657659056!2d9.1837812!3d45.4651773!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c15368f67a49%3A0x9666d3bd3b51251!2sMiB%20Milano%20-%20Restaurant%20Caf%C3%A8!5e0!3m2!1sit!2sit!4v1679012431247!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<div class="map zoom">
+    <iframe  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11192.918657659056!2d9.1837812!3d45.4651773!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c15368f67a49%3A0x9666d3bd3b51251!2sMiB%20Milano%20-%20Restaurant%20Caf%C3%A8!5e0!3m2!1sit!2sit!4v1679012431247!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script>
-        $(document).ready(function(){
-           
-            $(".header_icon_bar").click(function(e){
-               
-                $(".menu-container").toggleClass('is-open');
-                e.preventDefault();
-            });
-        });
-    </script>
 </body>
     <footer class="footer-container">
         <ul>
@@ -78,4 +68,17 @@
             <li>Contattaci: +33966677788</li>
         </ul>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+           
+            $(".header_icon_bar").click(function(e){
+               
+                $(".menu-container").toggleClass('is-open');
+                e.preventDefault();
+            });
+        });
+        ScrollReveal().reveal('.reveal', { distance: '50px', duration: 1500, easing: 'cubic-bezier(0.5, 0, 0, 1)' ,interval: 600 });
+        ScrollReveal().reveal('.zoom', {  duration: 1500, easing: 'cubic-bezier(0.5, 0, 0, 1)' ,interval: 200, scale: 0.65});
+    </script>
 </html>
