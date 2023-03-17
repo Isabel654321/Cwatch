@@ -67,8 +67,25 @@ h2,h1,h4 {font-family:"Papyrus";}
 .container_slide{margin-left: 10%;margin-top: 5%; margin-bottom: 5%; width: 70%;}
 .container h2{text-align: center;margin-top: 25%;color: white;}
 .container{background-color:#edb342;float:right;width:50%;height: 100%;}
-.container p{margin-left:10%;margin-right:10%; text-align: center;color: white;}
+.container p{margin: 10% 10% 0% 10%; text-align: center;color: white;}
 .container li{display: block; text-align: center; padding: 20px;color: white;font: size 40px;}
+
+/* modifica contatti*/
+.section{ width:50%; height:100%;  background-color: #edb342;float: left;}
+.section_input{ align-items: center;justify-content: center;}
+.section_input input{ width:70%; margin: 10% 20% 0% 10%;padding:20px;border:0px; border-bottom: 1px solid black;
+     background-color: #edb342; }
+.button{display: inline-block;border: 1px solid #060606;padding: 0.2% 30% 0.2% 30%; margin: 10% 20% 0% 20%; transition: all 0.4s ease-in-out;}
+.button:hover{color: white;background-color: rgb(0, 0, 0);transform: scale(1.1);}
+input:focus{outline: none;}
+input::placeholder{color: rgb(22, 22, 22);}
+.container img{width: 80%; height:60%; margin: 10% 10% auto;object-fit: cover;}
+.cover{height: 30vh;width: 100%;margin-top: 10%;position: relative;z-index: 4;background-color: rgb(0, 0, 0);}
+.cover p{font-family: "Papyrus" ; font-size: 30px;margin: 9% 20% 20% 30%;position: absolute;color: rgb(3, 3, 3);}
+.cover img{width: 100%; height: 100%;object-fit: cover;z-index: -1;}
+.map{height: 50vh; width: 100%;}
+.map iframe{width: 100%; height: 100%;}
+
 
 .footer-container{text-align:center; border: 5pxs; margin:0px; padding:20px;background-color: black;}
 .footer-container li{color:#edb342; display: inline-block;}
