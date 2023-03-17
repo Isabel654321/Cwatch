@@ -3,8 +3,8 @@ a{text-decoration: none; color:#000;}
 li{color:#edb342; font-family: papyrus;}
 body{background-color:#000;}
 ul{margin: 0%; padding: 0%;}
-p, h5{font-family: Garamond; font-size: 15px;}
-
+p,li{font-family: 'Ubuntu', sans-serif;}
+h2,h1,h4 {font-family:"Papyrus";}
 
 
 .menu-container a{color:white;}
@@ -17,10 +17,9 @@ p, h5{font-family: Garamond; font-size: 15px;}
 
 .cover_copy{background-color: #edb342; height:90vh ;position:relative;z-index:1; padding: 20px;}
 .cover_copy img{ display: block; margin: auto; height: 40%; padding-top: 100px;}
-.cover_copy h1,h4{color: #000; text-align: center; font-family: "Papyrus";  margin:0px;}
+.cover_copy h1,h4{color: #000; text-align: center; margin:0px;}
 
-h5{font-family: Garamond; color: white; padding-left: 10px; padding-right: 10px; text-align: center;}
-
+/* h5{ padding-left: 10px; padding-right: 10px; text-align: center;}*/
 
 
 .presentazione{padding:0; height:100vh; display:flex; background-color: #000000;}
@@ -66,11 +65,10 @@ h5{font-family: Garamond; color: white; padding-left: 10px; padding-right: 10px;
 
 #cs1{margin-left:20%;}
 .container_slide{margin-left: 10%;margin-top: 5%; margin-bottom: 5%; width: 70%;}
-.container h2{font-family: papyrus;text-align: center;margin-top: 25%;color: white; font-size: 30px;margin-left: 10%; margin-right: 10%;}
+.container h2{text-align: center;margin-top: 25%;color: white;}
 .container{background-color:#edb342;float:right;width:50%;height: 100%;}
-.container p{margin-left:10%;margin-right:10%; margin-top: 20%; text-align: center;color: white;}
-.container li{font-family: Garamond;display: block; text-align: center; padding: 20px;color: white; font-size: 25px;}
-.container h5{text-align: center; margin-left: 10%; margin-right: 10%;}
+.container p{margin-left:10%;margin-right:10%; text-align: center;color: white;}
+.container li{display: block; text-align: center; padding: 20px;color: white;font: size 40px;}
 
 .footer-container{text-align:center; border: 5pxs; margin:0px; padding:20px;background-color: black;}
 .footer-container li{color:#edb342; display: inline-block;}
