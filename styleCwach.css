@@ -112,9 +112,9 @@ input::placeholder{color: rgb(22, 22, 22);}
   .cover_copy h1{padding: 9px}
   .container_slide{width: 100%;margin-left: 0%;}
   #cs1{margin-left:0%;}
-  .container p{margin: 25% 1% 0% 1%; font-size: 20px;}
-  .container h2{margin-top: 40%; font-size: 35px;}
-  .container li{font-size: 20px;}
+  .container p{margin: 25% 5% 0% 5%; font-size: 15px;}
+  .container h2{margin-top: 30%; font-size: 35px;}
+  .container li{font-size: 15px;}
   .container ul{margin-top: 20%;}
   .container h2{margin-left: 5%; margin-right: 5%;}
 }
