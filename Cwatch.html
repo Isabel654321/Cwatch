@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cwach</title>
     <link rel="stylesheet" href="styleCwach.css">
-    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
@@ -15,9 +15,6 @@
 <body>
     
     <header class="header clearfix">
-        <div class="header_logo">
-            <img src="immagini/logo.png" alt="">
-        </div>
         <a href="" class="header_icon_bar">
             <span></span>
             <span></span>
@@ -33,6 +30,7 @@
             </ul>
         </menu>
     </header>
+    
 
     <div class="cover_copy">
         <img src="immagini/sfondo.png" alt="" class="zoom">
@@ -107,7 +105,7 @@
                         <div class="auto-btn2"></div>
                         <div class="auto-btn3"></div>
                         <div class="auto-btn4"></div>
-                    </div>
+                </div>
             </div>
             <div class="navigation_manual">
                 <label for="radio5" class="manual-btn"></label>
@@ -162,14 +160,14 @@
     </a>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script>
-        $(document).ready(function(){
+         $(document).ready(function(){
            
-            $(".header_icon_bar").click(function(e){
-               
-                $(".menu-container").toggleClass('is-open');
-                e.preventDefault();
-            });
-        });
+           $(".header_icon_bar").click(function(e){
+              
+               $(".menu-container").toggleClass('is-open');
+               e.preventDefault();
+           });
+       });
         ScrollReveal().reveal('.reveal', { distance: '50px', duration: 1500, easing: 'cubic-bezier(0.5, 0, 0, 1)' ,interval: 600 });
         ScrollReveal().reveal('.zoom', {  duration: 1500, easing: 'cubic-bezier(0.5, 0, 0, 1)' ,interval: 200, scale: 0.65});
 
