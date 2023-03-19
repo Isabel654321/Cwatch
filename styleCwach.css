@@ -94,18 +94,21 @@ input::placeholder{color: rgb(22, 22, 22);}
 
 .footer-container{ display: flex;margin: auto;margin-top:5% ;width: 80%;}
 .footer p{float: right;}
-.footer-container-contatti p,h3{color:#ffffff;display: inline;}
+
 .footer-container-contatti{flex-grow: 1;position: relative;}
+.footer-container-contatti p,h3{color:#ffffff;display: inline;}
 .footer-container-contatti ul{display: flex;position:absolute;justify-content: end;}
 .footer-container-contatti img{width: 100%; height: auto;}
 .footer-container-contatti li{display:block; width: 15%;padding:10px;}
+
 .footer-container-orari p,h3{color:#ffffff;display: inline;}
 .footer-container-orari{flex-grow: 1;margin-left:10%;}
 .footer-container-orari h3{float:left; }
 .footer-container-orari li{display: inline-block; width: 50%;margin-left:2%; color: white; }
-.footer-container-posto p,h3{color:#ffffff;display: inline;}
+
+.footer-container-posto p,h3{color:#ffffff;display: inline;margin:0px;}
 .footer-container-posto{flex-grow:0.5;}
-.footer-container-posto h3,p{margin:0px;}
+
 
 .footer-container-copyright p{color:#ffffff;}
 .footer-container-copyright {margin:10% 25% 2% 25% ;}
