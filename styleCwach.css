@@ -1,4 +1,4 @@
-header{background-color: black;}
+header{ background: black;padding: 10px x; margin: 10px}
 a{text-decoration: none; color:#ffffff;}
 li{color:#edb342; font-family: papyrus;}
 body{background-color:#000;}
@@ -8,15 +8,17 @@ h2,h1,h4 {font-family:"Papyrus";}
 
 
 .menu-container{ text-align:center; border: 0px; margin:0px; }
-header{ margin: 5px; height: 10vh;}
+
 
 .header_logo{float: left; width: 20%; height: 100%; display: block; }
 .header_logo img{height: 100%; width: 100%; object-fit: cover;}
 .menu-container{float:right; margin: 0px; padding: 0px;}
+.menu-container{transition: all 1s cubic-bezier(.215, .61, .355, 1);}
 .header_menu_item{display: inline-block; padding: 10px; text-decoration: none;}
 .header_menu_item a:hover{color: black;display: block;background:rgb(252, 252, 252) }
-.header_icon_bar{display: block; float: right; padding: 10px; display: none;}
+.header_icon_bar{display: block; float: right; padding: 10px; display: none;transition: all 1s cubic-bezier(.215, .61, .355, 1);}
 .header_icon_bar span{display: block; height:3px; width:30px; background:#edb342; margin-bottom: 5px;}
+
 
 .cover_copy{background-color: #edb342; height:90vh ;position:relative;z-index:1; padding: 20px;}
 .cover_copy img{ display: block; margin: auto; height: 40%; padding-top: 100px;}
